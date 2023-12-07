@@ -1,0 +1,188 @@
+{
+	"info": {
+		"_postman_id": "3d983af0-b9e5-48fc-965a-4b6c4ad774a7",
+		"name": "Practica3_idwm",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30510250"
+	},
+	"item": [
+		{
+			"name": "Edit Interests",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"interests\": [\r\n        {\r\n            \"id\": 1,\r\n            \"activity\": \"woof\"\r\n        },\r\n        {\r\n            \"id\": 2,\r\n            \"activity\": \"s\"\r\n        },\r\n        {\r\n            \"id\": 3,\r\n            \"activity\": \"c\"\r\n        },\r\n        {\r\n            \"id\": 4,\r\n            \"activity\": \"v\"\r\n        },\r\n        {\r\n            \"id\": 5,\r\n            \"activity\": \"b\"\r\n        },\r\n        {\r\n            \"id\": \"\",\r\n            \"activity\": \"a\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/profile/edit/interests",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"profile",
+						"edit",
+						"interests"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Frameworks",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"frameworks\":[\r\n        {\r\n            \"id\": 1,\r\n            \"name\": \"ayuda\",\r\n            \"knowledge\": \"me\"\r\n        },\r\n        {\r\n            \"id\": 2,\r\n            \"name\": \"xd\",\r\n            \"knowledge\": \"a\"\r\n        },\r\n        {\r\n            \"id\": \"\",\r\n            \"name\": \"s\",\r\n            \"knowledge\": \"me\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/profile/edit/frameworks",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"profile",
+						"edit",
+						"frameworks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Social Networks",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"social_networks\": [\r\n        {\r\n            \"id\": 1,\r\n            \"name\": \"Facebook\",\r\n            \"page_url\": \"gmail.com\",\r\n            \"path_img\": \"a\"\r\n        },\r\n        {\r\n            \"id\": 2,\r\n            \"name\": \"ssadasd\",\r\n            \"page_url\": \"gmail.com\",\r\n            \"path_img\": \"a\"\r\n        },\r\n        {\r\n            \"id\": 3,\r\n            \"name\": \"xd\",\r\n            \"page_url\": \"gmail.com\",\r\n            \"path_img\": \"a\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/profile/edit/social-network",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"profile",
+						"edit",
+						"social-network"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit PersonalData",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"social_networks\": [\r\n        {\r\n            \"id\": 1,\r\n            \"name\": \"Facebook\",\r\n            \"page_url\": \"x.com\",\r\n            \"path_img\": \"a\"\r\n        },\r\n        {\r\n            \"id\": 2,\r\n            \"name\": \"ssadasd\",\r\n            \"page_url\": \"x.com\",\r\n            \"path_img\": \"a\"\r\n        },\r\n        {\r\n            \"id\": 3,\r\n            \"name\": \"xd\",\r\n            \"page_url\": \"x.com\",\r\n            \"path_img\": \"a\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/profile/edit/social-network",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"profile",
+						"edit",
+						"social-network"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit User",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"social_networks\": [\r\n        {\r\n            \"id\": 1,\r\n            \"name\": \"Facebook\",\r\n            \"page_url\": \"x.com\",\r\n            \"path_img\": \"a\"\r\n        },\r\n        {\r\n            \"id\": 2,\r\n            \"name\": \"ssadasd\",\r\n            \"page_url\": \"x.com\",\r\n            \"path_img\": \"a\"\r\n        },\r\n        {\r\n            \"id\": 3,\r\n            \"name\": \"xd\",\r\n            \"page_url\": \"x.com\",\r\n            \"path_img\": \"a\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/profile/edit/social-network",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"profile",
+						"edit",
+						"social-network"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get profile",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
