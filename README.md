@@ -70,3 +70,42 @@ php artisan serve
 ```
 
 Este comando iniciará el servidor de Laravel de manera local.
+
+### Ionic/Angular
+
+Para configurar el frontend, se debe abrir una terminal con la ruta dentro de la carpeta 'frontend_practica3', luego sigue estos pasos:
+
+
+1. **Instalar dependencias de node.js:**
+
+```bash
+npm install
+```
+
+Se instalarán las dependencias necesarias de node.js
+
+2. **Si se utiliza la consola de Windows (Opcional):**
+
+Abra una terminal de PowerShell con privilegios de administrador en su computadora y ejecute el siguiente comando:
+
+```bash
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
+Esto permitirá la ejecución de Scripts en Windows.
+
+3. **Iniciar el servidor:**
+
+```bash
+ng serve
+```
+
+O si no puedes ejecutar scripts en Windows, utiliza el siguiente comando:
+
+```bash
+npm start
+```
+
+Cualquiera de estos comandos iniciarán el servidor de ionic/Angular.
+
+**Una vez realizados todos los pasos, los dos servidores tienen que estar ejecutándose simultaneamente y se debe ingresar a la URL del servidor local proporcionada por Angular.**
