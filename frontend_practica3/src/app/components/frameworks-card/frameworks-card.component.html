@@ -1,0 +1,24 @@
+<ion-card>
+  <ion-card-header>
+    Frameworks
+  </ion-card-header>
+  <ion-card-content>
+    <ion-grid class="ion-no-padding">
+      <ion-row class="ion-background-color-blue ion-text-white">
+        <ion-col></ion-col>
+        <ion-col>Tecnologías</ion-col>
+        <ion-col>Nivel de conocimiento</ion-col>
+      </ion-row>
+
+      <ion-row *ngFor="let framework of frameworks; let index = index" class="ion-text-center">
+        <ion-col size="1">{{ index + 1 }}</ion-col>
+        <ion-col size="5">
+          <ion-label>{{ framework.name }}</ion-label>
+        </ion-col>
+        <ion-col size="6">
+          <ion-label>{{ framework.knowledge }}</ion-label>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card-content>
+</ion-card>

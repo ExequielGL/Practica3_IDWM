@@ -1,0 +1,17 @@
+<ion-card>
+  <ion-card-header>
+    Redes Sociales
+  </ion-card-header>
+  <ion-card-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col size-lg="4" size-md="6" size-sm="12" *ngFor="let network of socialNetworks">
+          <ion-card class="ion-padding">
+            <ion-img [src]="network.path_img" alt="{{ network.name }}"></ion-img>
+              <a [href]="network.page_url" target="_blank" class="ion-text-center ion-text-blue">{{ network.name }}</a>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card-content>
+</ion-card>

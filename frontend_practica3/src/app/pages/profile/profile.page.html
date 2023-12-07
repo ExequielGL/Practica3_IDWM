@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Portafolio
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-profile-card [profile]="profile"></app-profile-card>
+  <app-personal-data-card [personalData]="profile.user.personal_data"></app-personal-data-card>
+  <app-interests-card [interests]="profile.user.interest"></app-interests-card>
+  <app-frameworks-card [frameworks]="profile.user.framework"></app-frameworks-card>
+  <app-social-networks-card [socialNetworks]="profile.user.social_network"></app-social-networks-card>
+</ion-content>
